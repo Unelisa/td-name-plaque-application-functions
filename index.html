@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Plaque Application Functions</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    
+    
+    <div class="wrapper">
+
+        <h1>Name Plaque Application.</h1>
+        <p class="P1">Add any name of your choice and we will show you how much it will cost. (Each letter is $5)</p>
+
+        <div class="form">
+
+            <div class="field-container">
+                <input class="field-input" id="guessField" name="inputName" type="text" placeholder="">
+                <label class="field-placeholder" for="inputName">Enter a name</label>
+            </div>
+
+        </div>
+
+        <div class="plaque">
+            <div class="preview">
+                <div class="white-bg">
+                    <span class="btn-round-left"></span>
+                    <span class="btn-round-right"></span>
+
+                    <p class="plaque-prev">Your Name</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="price">
+            <div class="price-drop">
+                <div class="price-tag">Total: <span id="plaque-price">$0</span></div>
+                <input type="submit" value="Buy Now" class="buy-submit">
+                <!-- <button id="myBuyNowBtn">Buy Now</button> -->
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
